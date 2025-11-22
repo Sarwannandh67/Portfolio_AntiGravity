@@ -1,0 +1,127 @@
+﻿
+> sarwan-portfolio@0.1.0 build
+> next build
+
+node.exe :  ΓÜá Warning: Next.js inferred your 
+workspace root, but it may not be correct.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Users\SARWAN NANDH\AppData\R ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( ΓÜá 
+    Warning: N...not be correct.:String) [], Rem  
+  oteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ We detected multiple lockfiles and selected the 
+directory of C:\Users\SARWAN 
+NANDH\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in 
+your Next.js config, or consider removing one of 
+the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/c
+onfig/next-config-js/turbopack#root-directory for 
+more information.
+ Detected additional lockfiles: 
+   * C:\Users\SARWAN NANDH\.gemini\antigravity\scr
+atch\sarwan-portfolio\package-lock.json
+
+   Γû▓ Next.js 16.0.3 (Turbopack)
+
+   Creating an optimized production build ...
+Error: Cannot apply unknown utility class 
+`bg-glass`. Are you using CSS modules or similar 
+and missing `@reference`? https://tailwindcss.com/
+docs/functions-and-directives#reference-directive
+    [2m[at onInvalidCandidate (C:\Users\SARWAN NA
+NDH\.gemini\antigravity\scratch\sarwan-portfolio\n
+ode_modules\tailwindcss\dist\lib.js:21:1314)][0m
+    [2m[at Te (C:\Users\SARWAN NANDH\.gemini\anti
+gravity\scratch\sarwan-portfolio\node_modules\tail
+windcss\dist\lib.js:16:36364)][0m
+    [2m[at C:\Users\SARWAN NANDH\.gemini\antigrav
+ity\scratch\sarwan-portfolio\node_modules\tailwind
+css\dist\lib.js:21:355][0m
+    [2m[at Tr (C:\Users\SARWAN NANDH\.gemini\anti
+gravity\scratch\sarwan-portfolio\node_modules\tail
+windcss\dist\lib.js:3:1718)][0m
+    [2m[at _ (C:\Users\SARWAN NANDH\.gemini\antig
+ravity\scratch\sarwan-portfolio\node_modules\tailw
+indcss\dist\lib.js:3:1377)][0m
+    [2m[at Se (C:\Users\SARWAN NANDH\.gemini\anti
+gravity\scratch\sarwan-portfolio\node_modules\tail
+windcss\dist\lib.js:21:172)][0m
+    [2m[at ln (C:\Users\SARWAN NANDH\.gemini\anti
+gravity\scratch\sarwan-portfolio\node_modules\tail
+windcss\dist\lib.js:38:294)][0m
+    [2m[at process.processTicksAndRejections 
+(node:internal/process/task_queues:105:5)][0m
+    [2m[at async sn (C:\Users\SARWAN NANDH\.gemin
+i\antigravity\scratch\sarwan-portfolio\node_module
+s\tailwindcss\dist\lib.js:38:631)][0m
+    [2m[at async Qr (C:\Users\SARWAN NANDH\.gemin
+i\antigravity\scratch\sarwan-portfolio\node_module
+s\@tailwindcss\node\dist\index.js:10:3385)][0m
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./.gemini/antigravity/scratch/sarwan-portfolio/src
+/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\SARWAN NANDH
+\.gemini\antigravity\scratch\sarwan-portfolio\src\
+app\globals.css:1:1: Cannot apply unknown utility 
+class `bg-glass`. Are you using CSS modules or 
+similar and missing `@reference`? https://tailwind
+css.com/docs/functions-and-directives#reference-di
+rective
+    at Input.error (.gemini/antigravity/scratch/sa
+rwan-portfolio/node_modules/postcss/lib/input.js:1
+35:16) [C:\Users\SARWAN NANDH\.gemini\antigravity\
+scratch\sarwan-portfolio\.next\build\chunks\75965_
+e70fd9d9._.js:4651:22]
+    at Root.error (.gemini/antigravity/scratch/sar
+wan-portfolio/node_modules/postcss/lib/node.js:146
+:32) [C:\Users\SARWAN NANDH\.gemini\antigravity\sc
+ratch\sarwan-portfolio\.next\build\chunks\75965_e7
+0fd9d9._.js:928:38]
+    [at Object.Once (C:\Users\SARWAN NANDH\.gemini
+\antigravity\scratch\sarwan-portfolio\node_modules
+\@tailwindcss\postcss\dist\index.js:10:6912)]
+    [at process.processTicksAndRejections 
+(node:internal/process/task_queues:105:5)]
+    at async LazyResult.runAsync (.gemini/antigrav
+ity/scratch/sarwan-portfolio/node_modules/postcss/
+lib/lazy-result.js:293:11) [C:\Users\SARWAN NANDH\
+.gemini\antigravity\scratch\sarwan-portfolio\.next
+\build\chunks\75965_e70fd9d9._.js:6206:21]
+    at async transform (turbopack:///[turbopack-no
+de]/transforms/postcss.ts:70:34) [C:\Users\SARWAN 
+NANDH\.gemini\antigravity\scratch\sarwan-portfolio
+\.next\build\chunks\[root-of-the-server]__17dad09e
+._.js:146:36]
+    at async run (turbopack:///[turbopack-node]/ip
+c/evaluate.ts:92:23) [C:\Users\SARWAN NANDH\.gemin
+i\antigravity\scratch\sarwan-portfolio\.next\build
+\chunks\[root-of-the-server]__cf9d392e._.js:443:31
+]
+
+Import trace:
+  Client Component Browser:
+    ./.gemini/antigravity/scratch/sarwan-portfolio
+/src/app/globals.css [Client Component Browser]
+    ./.gemini/antigravity/scratch/sarwan-portfolio
+/src/app/layout.tsx [Server Component]
+
+
+    at async transform (turbopack:///[turbopack-no
+de]/transforms/postcss.ts:70:34) [C:\Users\SARWAN 
+NANDH\.gemini\antigravity\scratch\sarwan-portfolio
+\.next\build\chunks\[root-of-the-server]__17dad09e
+._.js:146:36])
+    at async run (turbopack:///[turbopack-node]/ip
+c/evaluate.ts:92:23) [C:\Users\SARWAN NANDH\.gemin
+i\antigravity\scratch\sarwan-portfolio\.next\build
+\chunks\[root-of-the-server]__cf9d392e._.js:443:31
+])

@@ -1,0 +1,65 @@
+﻿
+> sarwan-portfolio@0.1.0 build
+> next build
+
+node.exe :  ΓÜá Warning: Next.js inferred your 
+workspace root, but it may not be correct.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Users\SARWAN NANDH\AppData\R ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( ΓÜá 
+W    arning: N...not be correct.:String) [], 
+RemoteE    xception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ We detected multiple lockfiles and selected the 
+directory of C:\Users\SARWAN 
+NANDH\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in 
+your Next.js config, or consider removing one of 
+the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/c
+onfig/next-config-js/turbopack#root-directory for 
+more information.
+ Detected additional lockfiles: 
+   * C:\Users\SARWAN NANDH\.gemini\antigravity\scr
+atch\sarwan-portfolio\package-lock.json
+
+   Γû▓ Next.js 16.0.3 (Turbopack)
+
+   Creating an optimized production build ...
+(node:10236) [MODULE_TYPELESS_PACKAGE_JSON] 
+Warning: Module type of file:///C:/Users/SARWAN%20
+NANDH/.gemini/antigravity/scratch/sarwan-portfolio
+/tailwind.config.ts?id=1763656980447 is not 
+specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was 
+detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" 
+to C:\Users\SARWAN NANDH\.gemini\antigravity\scrat
+ch\sarwan-portfolio\package.json.
+(Use `node --trace-warnings ...` to show where 
+the warning was created)
+ Γ£ô Compiled successfully in 2.5s
+   Running TypeScript ...
+   Collecting page data using 19 workers ...
+   Generating static pages using 19 workers (0/8) ...
+   Generating static pages using 19 workers (2/8) 
+   Generating static pages using 19 workers (4/8) 
+   Generating static pages using 19 workers (6/8) 
+ Γ£ô Generating static pages using 19 workers (8/8) in 980.2ms
+   Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /about
+Γö£ Γùï /contact
+Γö£ Γùï /projects
+Γöö Γùï /ventures
+
+
+Γùï  (Static)  prerendered as static content
+

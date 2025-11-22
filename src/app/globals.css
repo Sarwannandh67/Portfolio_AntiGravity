@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+:root {
+  --background: #000000;
+  --foreground: #ededed;
+  --gold: #d4af37;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-glass backdrop-blur-md border border-glass-border shadow-lg;
+  }
+
+  .glass-card {
+    @apply bg-glass/5 backdrop-blur-sm border border-glass-border/50 hover:border-gold/50 transition-all duration-300;
+  }
+
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-gold via-yellow-200 to-gold;
+  }
+
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
